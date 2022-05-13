@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/youtube.css">
+    <link rel="stylesheet" href="/styles/general.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/sidebar.css">
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>youtube.com Clone</title>
+</head>
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu"  src="/images/hamburger-menu.svg">
+      <img  class="youtube-logo" src="/images/youtube-logo.svg">
+     
+    </div>
+
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img  class="search-icon" src="/images/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <!-- Comment     -->
+      <button class="voice-search-button">
+        <img  class="voice-search-icon" src="/images/voice-search-icon.svg">
+        <div class="tooltip"> Search with your Voice</div>
+      </button>
+    </div>
+
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img  class="upload-icon" src="/images/upload.svg">
+        <div class="tooltip"> Create</div>
+      </div>
+      <div class="youtube-apps-container">
+        <img  class="youtube-apps-icon" src="/images/youtube-apps.svg">
+        <div class="tooltip"> Apps</div>
+      </div>
+      <div class="upload-icon-container">
+        <div class="notifications-icon-container">
+          <img  class="notifications-icon" src="/images/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip"> Apps</div>
+         </div>
+      </div>
+      <div class="current-user-picturer">
+        <img  class="current-user-picture" src="/images/my-channel.jpeg">
+        
+      </div> 
+      
+    </div>
+  </header> 
+
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img  class="home-icon" src="/images/home.svg"><div>Home</div>
+
+    </div>
+    <div class="sidebar-link">
+      <img  class="explore-icon" src="/images/explore.svg"><div>Explore</div>
+      
+    </div>
+    <div class="sidebar-link">
+      <img  class="subscriptions-icon" src="/images/subscriptions.svg"><div>Subscriptions</div>
+      
+    </div>
+    <div class="sidebar-link">
+      <img  class="originals-icon" src="/images/originals.svg"><div>Originals</div>
+      
+    </div>
+    <div class="sidebar-link">
+      <img  class="youtube-music-icon" src="/images/youtube-music.svg"><div>Youtube-music</div>
+      
+    </div>
+    <div class="sidebar-link">
+      <img  class="library-icon" src="/images/library.svg"><div>Libary</div>
+      
+    </div>
+    
+  </nav>
+
+
+    <!-- first video-->
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+              <img  class="thumbnail" src="/images/thumbnail1.webp">
+              <div class="video-time">12:20</div>
+            </div>
+            <div class="video-info-grid">
+                  <div class="channel-picture">
+                      <img  class="profile-picture" src="/images/profilepic1.jpg">
+                 </div> 
+                 <div class="video-info">
+                       <p class="video-title">  Asake - Sungba (Remix) (Official Video) (feat. Burna Boy</p>
+                       <p class="video-author">ASAKE</p>
+                       <p class="video-stats">5.8M views &#183; 2 days ago  </p>
+                       </div>
+                </div>
+           </div>
+           <!-- second video-->       
+        <div class="video-preview">
+                  <div class="thumbnail-row">
+                     <img  class="thumbnail" src="/images/thumbnail2">
+                     <div class="video-time">14:20</div>
+                  </div>
+             <div class="video-info-grid">
+                     <div class="channel-picture">
+                         <img  class="profile-picture" src="/images/profilepic3.jpg">
+                     </div>
+                  <div class="video-info">  
+                     <p class="video-title">  How (in 2022) to become a software engineer with no experience</p>
+                     <p class="video-author">SuperSimpleDev</p>
+                     <p class="video-stats">5.8M views &#183; 2 days ago  </p>
+                  </div>
+               </div>
+        </div>
+        <!-- third video-->   
+        <div class="video-preview">
+          <div class="thumbnail-row">
+             <img  class="thumbnail" src="/images/thumbnail3">
+             <div class="video-time">17:20</div>
+          </div>
+     <div class="video-info-grid">
+             <div class="channel-picture">
+                 <img  class="profile-picture" src="/images/profilepic4.jpg">
+             </div>
+          <div class="video-info">  
+             <p class="video-title">  How (in 2022) to become a software engineer with no experience</p>
+             <p class="video-author">SuperSimpleDev</p>
+             <p class="video-stats">5.8M views &#183; 2 days ago  </p>
+          </div>
+       </div>
+  </div>
+                    <!-- fourth video-->   
+                    <div class="video-preview">
+                      <div class="thumbnail-row">
+                         <img  class="thumbnail" src="/images/thumbnail1.webp">
+                         <div class="video-time">2:20</div>
+                      </div>
+                 <div class="video-info-grid">
+                         <div class="channel-picture">
+                             <img  class="profile-picture" src="/images/profilepic1.jpg">
+                         </div>
+                      <div class="video-info">  
+                         <p class="video-title">  How (in 2022) to become a software engineer with no experience</p>
+                         <p class="video-author">SuperSimpleDev</p>
+                         <p class="video-stats">5.8M views &#183; 2 days ago  </p>
+                      </div>
+                   </div>
+              </div>
+               <!-- fifth video--> 
+              <div class="video-preview">
+                <div class="thumbnail-row">
+                   <img  class="thumbnail" src="/images/thumbnail2">
+                   <div class="video-time">4:20</div>
+                </div>
+           <div class="video-info-grid">
+                   <div class="channel-picture">
+                       <img  class="profile-picture" src="/images/profilepic3.jpg">
+                       
+                   </div>
+                <div class="video-info">  
+                   <p class="video-title">  How (in 2022) to become a software engineer with no experience</p>
+                   <p class="video-author">SuperSimpleDev</p>
+                   <p class="video-stats">5.8M views &#183; 2 days ago  </p>
+                </div>
+             </div>
+        </div>
+         <!-- fourth video--> 
+         <div class="video-preview">
+          <div class="thumbnail-row">
+             <img  class="thumbnail" src="/images/thumbnail3">
+             <div class="video-time">12:80</div>
+          </div>
+     <div class="video-info-grid">
+             <div class="channel-picture">
+                 <img  class="profile-picture" src="/images/profilepic4.jpg">
+             </div>
+          <div class="video-info">  
+             <p class="video-title">  How (in 2022) to become a software engineer with no experience</p>
+             <p class="video-author">SuperSimpleDev</p>
+             <p class="video-stats">5.8M views &#183; 2 days ago  </p>
+          </div>
+       </div>
+  </div>
+                
+</section> 
+    
+
+    </main>
+   
+</body>
+</html>
